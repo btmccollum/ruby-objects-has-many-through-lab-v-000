@@ -30,4 +30,4 @@ class Genre
   end
 
 end
-binding.pry
+# binding.pry
