@@ -19,7 +19,7 @@ class Artist
     Song.all.select {|songs| songs.artist == self}
   end
 
-  def self.genres
+  def genres
     Song.all.map{|song_name| song_name.genre}.uniq
   end
 
