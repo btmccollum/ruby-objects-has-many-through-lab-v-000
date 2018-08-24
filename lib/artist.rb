@@ -9,7 +9,7 @@ class Artist
   end
 
   #takes in a song name and genre and creates a new song for the artist
-  def add_song(name, genre)
+  def new_song(name, genre)
     song = Song.new(name)
     song.artist = self
     song.genre = genre
