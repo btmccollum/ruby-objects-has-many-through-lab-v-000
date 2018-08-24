@@ -18,6 +18,7 @@ class Genre
   end
 
   def artists
+    binding.pry
     Genre.all.select {|song_name| song_name.genre == self ? song_name : next}
   end
 
