@@ -20,7 +20,7 @@ class Artist
   end
 
   def self.genres
-    @songs.map{|song_name| song_name.genre}.uniq
+    Song.all.map{|song_name| song_name.genre}.uniq
   end
 
   def self.all
