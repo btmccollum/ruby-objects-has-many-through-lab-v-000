@@ -20,9 +20,9 @@ class Genre
   def artists
     self.all.select {|song_name| song_name.genre == self ? song_name.artist : next}
   end
-  
-  def self.all 
+
+  def self.all
     @@all
   end
-  
+
 end
