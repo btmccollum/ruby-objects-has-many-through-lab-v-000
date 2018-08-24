@@ -1,5 +1,4 @@
-require 'pry
-'
+require 'pry'
 class Genre
   attr_accessor :name, :artist
   attr_reader :song
